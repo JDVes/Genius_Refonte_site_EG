@@ -11,8 +11,9 @@ padding: 0px;
 }
 
 nav  ul  li {
-    float: right ;
+   float: right;
     position: relative;
+   
 }
 
 nav  ul  li :hover a {
