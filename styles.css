@@ -1,19 +1,21 @@
-body{
+*{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0px;
+    margin: 10px;
     padding: 0px;
+    box-sizing: border-box;
+    
 }
 nav > ul {
 margin: 0px;
 padding: 0px;
 }
 
-nav > ul > li {
-    float: ;
+nav  ul  li {
+    float: right ;
     position: relative;
 }
 
-nav > ul > li :hover a {
+nav  ul  li :hover a {
     padding: 15px 30px 20px;
 } 
 
@@ -23,7 +25,7 @@ nav li{
     list-style-type: none;
 }
 
-.sous6menu{
+.sous-menu{
     display: none;
 }
 
