@@ -1,5 +1,5 @@
 *{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     margin: 10px;
     padding: 0px;
     box-sizing: border-box;
@@ -76,6 +76,18 @@ nav > ul ::after {
 
  .menu-programme {
      border-top: 5px;
-     background-color: blueviolet;
+    background-color: cornsilk;
  }
- 
+
+
+.btnn{
+    text-decoration: none;
+    border: 1px solid black ;
+    text-align: center;
+    border-radius: 8px;
+    width: fit-content;
+    align-items: center;
+    background-color: indigo;
+   
+}
+
