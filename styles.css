@@ -1,0 +1,462 @@
+body{
+    padding: 0  2%;
+    margin: 0;
+    width: ;
+    height: 5000px;
+}
+.before{
+    height: 30px;
+    width: 100%;
+    background-color: white ;
+    border: 1px solid #000;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    position: sticky;
+
+}
+nav .profil{
+    margin-left: 30px;
+    align-items: center;
+}
+nav .profil img{
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li{
+    margin-left: 30px;
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+nav ul li:hover{
+    border-bottom-color:#000 ;
+}
+.sectio{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    padding: 5px 5px;
+    position: absolute;
+    
+}
+.ss1{
+    margin-bottom: 50px;
+}
+.secti{
+    
+    height: 490px;
+    width: 60%;
+    position: relative;
+
+}
+.secti1{
+    height: 300px;
+    padding: 20px;
+    margin-right: 70px;
+    margin-bottom: 0;
+    
+
+}
+.secti1 h1{
+    color: rgb(37, 37, 224);
+    padding-top: 60px;
+    padding-left: 60px ;
+    padding-right:  70px;
+
+}
+
+.secti2{
+    display: flex;
+
+}
+.secti2 .one{
+    padding: 0px 120px;
+    height:50px ;
+    max-width: 200px;
+    padding-bottom: 50px;
+    margin-right: 10px;
+    margin-top: 0;
+    background-image: url(/image/Rectangle\ 8.png);
+    background-repeat:no-repeat ;  
+}
+.secti2 .two{
+    padding:  20px;
+    max-height:75px ;
+    max-width: 200px;
+    padding-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 0;
+    
+    
+}
+
+.secti2 .two h3{
+color: red;
+padding-top: 0;
+margin-top: 0;
+}
+.secti2 .two h4{
+color: #000;
+
+}
+.secti2 .three{
+    padding:  20px;
+    max-height:200px ;
+    max-width: 250px;
+    padding-bottom: 15px;
+    margin-bottom:30px ;
+    margin-right: 20px;
+    margin-top: 0;
+    
+}
+.sectis{
+    height: 490px;
+    width: 40%;
+    position: relative;
+    
+}
+.sectis1{
+    margin: 10px 10px;
+    margin-top:80px ;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 50%;
+    width:470px ;
+    background-image: url(/image/energie5.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+}
+.sectis2{
+    
+    margin-left: 50px;
+    margin-right:50px ;
+    padding-bottom:0;
+    padding-left:30px ;
+    padding-right: 30px;
+    height: 40% ;
+    width:300px;
+    background-color: #fff;
+    position:absolute ;
+
+}
+.sectis2 h2{
+    width:75%;
+    padding-top: 0;
+    margin-top: 0;
+
+
+}
+.mission{
+    display: flex;
+    height: 500px;
+    width:100% ;
+    margin-top: 50px;
+    position: absolute ;
+}
+.mission1{
+    position: relative;
+    height:100% ;
+    width: 50%;
+    background-image: url(/image/energie6.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    margin-right:15px ;
+}
+.mission2{
+    position: relative;
+    height:100% ;
+    width: 50%;
+    margin-left:10px ;
+    margin-right: 20px;
+}
+.ss2{
+    margin-top: 600px;
+
+}
+.mission3{
+    margin-top: 15px;
+    height: 200px;
+    width:400px ;
+}
+.mission3 h1{
+    color: rgb(36, 36, 205);
+    margin-bottom: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mission4{
+    display: flex;
+
+}
+.mission4 span h5{
+    padding-left: 20px;
+    padding-right: 40px;
+    color: rgb(122, 103, 103);
+} 
+.mission4 span h3{
+    color: rgb(36, 36, 205); 
+    margin-left: 20px;
+    padding-top: 30px;
+}
+.fonte{
+    margin-top:1200px ;
+    height: 600px;
+    width: 100%;
+
+}
+.font{
+    display: flex;
+    height: 500px;
+    background-color:rgb(32, 117, 237) ;
+
+}
+.font .vrai{
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 20px;
+    height: 400px;
+    width: 350px;
+    padding-left: 40px;
+}
+.font .vrai {
+color: #fff;
+font-size: larger;
+}
+.font .vrai p{
+    margin-top: 80px;
+    font-size: xx-large;
+}
+.font .faux{
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 60px;
+    height: 550px;
+    width: 600px;
+    background-image: url(/image/energie9.jpeg);
+    background-size: cover;
+    z-index: 30;
+
+}
+.PRODUITS{
+    display: flex;
+    margin-top: 150px;
+    height: 400px;
+    width: 100%
+
+}
+.produit{
+height: 250px;
+width: 300PX;
+margin-left: 80px;
+margin-right: 50px;
+margin-top: 20px;
+padding-top: 100px;
+margin-bottom: 20px;
+background-color: rgb(190, 190, 232);
+
+}
+.produit h1{
+    font-size: large;
+    color: rgb(80, 80, 250);
+    margin-left: 20px;
+    
+}
+.produit p{
+    color: rgba(58, 53, 53, 0.361);
+    margin-left: 20px;
+    
+}
+.produit h2{
+    color: rgba(58, 53, 53, 0.361);
+    font-size: larger;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+.after-footer{
+    height: 900px;
+    width: 100%;
+    margin-top: 30px;
+    
+}
+.information{
+     height: 800px;
+     width: 100%;
+     margin-top: 30px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+
+}
+.info{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.info .info1{
+    background-image: url(/image/energie7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    position:relative ;
+}
+.info .info2{
+    background-color: blue;
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+.formation{
+    display: flex;
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.formation .formation1{
+    background-color: blue;
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+.formation .formation2{
+    background-image: url(/image/energie11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+    position: relative;
+}
+.information h1{
+    padding-left: 50px;
+    padding-right: 130px;
+    color: #fff;
+    padding-top: 30px;
+    margin-left: 50px;
+}
+.information p{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+    margin-left: 50px;
+    
+}
+.information button{
+    padding: 10px 30px;
+    background-color: rgb(107, 231, 231);
+    margin-left: 100px;
+    color: #fff;
+    margin-top: 40px;
+    border: none;
+}
+.information h3{
+    margin-left: 100px;
+    color: #fff;
+    
+}
+.footer{
+    height:1500px ;
+    width: 120%;
+    margin-top: 0;
+    border: red solid 3px;
+    position: absolute;
+
+}
+.footer .footer6{
+display: flex;
+height: 300px;
+width: 90%;
+margin-top:1000px ;
+margin-left: 30px;
+margin-right: 30px;
+padding-left: 20px;
+padding-right: 20px;
+background-color:rgb(32, 117, 237) ; 
+color: #fff;
+position: relative;
+}
+.footer .footer6 .end{
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+    margin-right:30px ;
+    padding: 10px 10px;
+    
+
+}
+.footer .footer6 .end h3{
+    padding-left: 20px;
+}
+.footer .footer6 .end li{
+    margin-bottom: 5px;
+}
+.footer .footer6 .end img{
+    margin-top:30px ;
+    color: #fff;
+}
+.footer .footer6 .end input{
+height: 20px;
+width: 120px;
+margin-right: 0;
+}
+.footer .footer6 .end button{
+    margin-left: 0;
+    height: 25px;
+    width: 40px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+.footer .footer1{
+display: flex;
+margin-top:5px ;
+height:150px ;
+width: 95%;
+}
+.footer .footer2{
+display: flex;
+margin-top:px ;
+height:150px ;
+width: 95%;
+}
+.footer .footer3{
+display: flex;
+margin-top: px;
+height:150px ;
+width: 95%;
+}
+.footer span{
+    height: 80px;
+    width:120px ;
+    margin-left:10px ;
+    margin-right:20px ;
+    padding-left: 0;
+    padding-right: 20px;
+    
+}
+
+@media screen {
+    
+}
