@@ -1,10 +1,38 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif ;
-    margin: 10px;
+    margin: 3px;
     padding: 0px;
     box-sizing: border-box;
     
 }
+
+ .entete{
+display: flex; 
+
+}
+
+.ifr{
+   
+   height: 50px;
+   border-radius: 100%;
+}
+
+.maileg  .numeg .iconnumeg .iconmeg{
+    position: relative;
+   ;margin-top: 10%;
+}
+.iang {
+    height: 50px;
+   border-radius: 100%;
+}
+
+.lang {
+    position: relative;
+    left: 50%;
+   
+}
+
+
 nav > ul {
 margin: 0px;
 padding: 0px;
@@ -13,7 +41,16 @@ padding: 0px;
 nav  ul  li {
    float: right;
     position: relative;
+    bottom: 30%;
+    right: 10%;
    
+   
+}
+
+.menu-blog .menu-energy .menu-programme .menu-accueil {
+   position: fixed;
+    width: 50px;
+    height: 30px;
 }
 
 nav  ul  li :hover a {
@@ -26,13 +63,17 @@ nav li{
     list-style-type: none;
 }
 
+.menu{
+    margin-top: 50%;
+    margin: 10%;
+}
 .sous-menu{
     display: none;
 }
 
 nav{
     width: 100%;
-    background-color: aqua;
+    
 }
 
 nav > ul ::after {
@@ -47,7 +88,7 @@ nav > ul ::after {
 
  nav > ul > a {
      padding: 20px 30px ;
-     color: aquamarine;
+color: black;
  }
 
  nav li:hover .sous-menu {
@@ -84,10 +125,152 @@ nav > ul ::after {
     text-decoration: none;
     border: 1px solid black ;
     text-align: center;
-    border-radius: 8px;
+    border-radius: 10px;
     width: fit-content;
     align-items: center;
-    background-color: indigo;
+   
+    width: 80%;
+    background-color: #5C4EFC ;
    
 }
 
+.section10{
+    background-image: none;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    display: flex;
+
+}
+
+
+form {
+ 
+    background-color: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+
+} 
+
+#Nom   #Prenoms{
+    width: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+fieldset{
+    border-radius: 10px;
+}
+
+
+.btn-form{
+    border-radius: 10px;
+   
+    width: 50%;
+    padding: 10px 0px 10px 0px;
+    justify-content: center;
+    margin: 10px 100px 5px 120px;
+    background-color: #E06C08;
+}
+
+
+.send-form{
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin: 10px 100px 10px 200px;
+    background-color: #5C4EFC;
+    border-radius: 10px;
+}
+
+.btnn{
+    margin: 100px 50px 5px 50px; ;
+    width: 80%;
+    background-color: #5C4EFC ;
+    z-index: 2;
+
+}
+
+.cover{
+    z-index: 1;
+    background-size: cover;
+}
+
+.footer0{
+   
+  display: flex;
+  background-color: #2F58A7;
+}
+
+.footer5{
+    display: flex;
+    background-color: #EAEAEA;
+    
+  
+}
+
+.news{
+    display: flex;
+
+    
+}
+
+.text2-section13{
+   padding-left: 500px;
+  
+
+}
+
+.sub{
+    background-color: #58BDF5;
+}
+
+.tof{
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.img-defilante{
+    display: flex;
+    flex-direction: row;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.caroussel{
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.faq-caroussel{
+    width: 50%;
+    overflow: hidden;
+    height: 1135px;
+
+    
+
+
+}
+
+.faq-img{
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+.help{
+    display: flex;
+    justify-content: flex-end;
+    
+  
+
+}
