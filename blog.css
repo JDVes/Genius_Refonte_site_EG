@@ -1,0 +1,37 @@
+.body{
+    height: 100%;
+    width: 100%;
+}
+
+.imgblog{
+    background-image: url("Genius_Refonte_site_EG/media_blog/entree.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    position: relative;
+  }
+  .flexstart {
+    align-items: flex-start;
+    
+    height: 100px;
+    width: 60px;
+   
+  }
+  flexcenter {
+    align-items: center;
+    height: 100px;
+    width: 60px;
+    
+  }
+  .flexend {
+    align-items: flex-end;
+    height: 100px;
+    width: 60px;
+   
+  }
