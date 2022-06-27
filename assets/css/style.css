@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
+    border: 1px solid black;
 
 }
 :root {
@@ -1339,4 +1340,18 @@ background-color: rgb(218, 218, 239);
 .information h3{
   margin-left: 100px;
   color: #fff;
+ }
+
+ .w3-content {
+  width: 100%;
+  display: flex;
+justify-content: center;
+
+
+ }
+
+ .deo{
+
+  display: flex;
+  justify-content: center;
  }
