@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
+   
 
 }
 :root {
@@ -874,8 +875,11 @@ height: 500px;
  border-radius: 10px;
  width: fit-content;
  align-items: center;
-
- width: 80%;
+ position: absolute;
+ top: 52%;
+ left: 43%;
+ 
+ width: 50%;
  background-color: #5C4EFC ;
 
 }
@@ -921,6 +925,9 @@ fieldset{
  justify-content: center;
  margin: 10px 100px 5px 120px;
  background-color: #E06C08;
+ position: absolute;
+ right: 50px;
+ left: 50px;
 }
 
 
@@ -936,9 +943,11 @@ fieldset{
 
 .btnn{
  margin: 100px 50px 5px 50px; ;
- width: 80%;
+ width: 10%;
  background-color: #5C4EFC ;
  z-index: 2;
+ position: absolute;
+ 
 
 }
 
@@ -1476,4 +1485,670 @@ Responsive Codes
   .header .logo {
     width: 60%;
   }
+ .w3-content {
+  width: 100%;
+  display: flex;
+justify-content: center;
+ }
+
+ .mySlides{
+  width: 50%;
+ }
+
+ .faqslider {
+  width: 100%;
+  display: flex;
+
+ }
+
+ .faqSlides{
+  width: 50%;
+ }
+
+ .img_section8{
+max-width: 50%;
+
+ }
+
+ .deo{
+
+  display: flex;
+  justify-content: center;
+ }
+
+ .cover{
+  width: 100%;
+ 
+ }
+
+ .accroche   {
+
+  display: flex;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+ }
+
+ .accroche-text{
+  font-size: 30px;
+  font-family: Verdana,  sans-serif;
+ }
+
+ .presentation{
+  display: flex;
+  justify-content: center;
+  font-size: var(--bold-primary);
+ }
+
+ .presentation-text{
+
+  font-family:  'Arial Narrow Bold', sans-serif;
+  font-size: 15px;
+ }
+
+ .parag{
+  display: flex;
+  justify-content: center;
+  font-family:  'Times New Roman', serif;
+ }
+
+ .parag-text{
+  text-align: center;
+  font-size: 15px;
+  
+
+  justify-content: center;
+ }
+
+ .intero{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  color:  #E06C08;
+
+
+ }
+
+
+
+ @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+.text-section5{
+
+
+}
+
+.titre-section6{
+
+
+}
+
+.appel{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #04132A;
+  
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+.appel-text{
+  font-size: 20px;
+  color: #E06C08;
+
+}
+
+
+.parcours{
+  display: flex;
+  justify-content: center;
+}
+
+/* .diplome{
+  display: flex;
+  justify-content: center;
+} */
+
+.titre-section5{
+  display: flex;
+  justify-content: center;
+  color:  #E06C08;
+  font-size: 20px;
+}
+
+.section6{
+  display: flex;
+  justify-content: center;
+}
+
+.titre-section6{
+  display: flex;
+  justify-content: center;
+
+}
+
+.titre-section7{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.tt-section7{
+
+
+}
+
+.innovation{
+  display: flex;
+  justify-content: stretch;
+  
+  margin-left: 20px;
+  margin-right: 20px;
+  
+
+}
+
+.inov1{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  height: 380px;
+  
+}
+
+.inov1-text{
+
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inov2{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex: 0 1 33%;
+  height: 380px;
+  
+  
+}
+
+.inov2-text{
+
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inov3{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  height: 380px;
+  
+  
+}
+
+.inov3-text{
+
+  color: white;
+  font-family: 'Times New Roman';
+  align-content: center;
+  text-align: justify;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ccl{
+
+  background-color: #04132A;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+ 
+  
+  
+
+}
+
+.ccl-text{
+
+  justify-content: center;
+  color: #E06C08;
+  font-size: 15px;
+
+}
+
+.diplome{
+  display: flex;
+  justify-content: stretch;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+}
+
+.candidat{
+  font-size: 30px;
+
+}
+
+.diplome1{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  position: relative;
+  display: flex;
+
+
+}
+
+.diplome1-text{
+  color: white;
+ 
+  text-align: center;
+
+
+}
+
+.diplome2{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+
+
+
+}
+
+.diplome2-text{
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+
+  
+}
+
+.diplome3{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  position: relative;
+
+}
+
+.diplome3-text{
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+  
+}
+
+.ref{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.ref-text{
+  font-size: 15px;
+  text-align: center;
+
+
+}
+
+.inscription{
+  display: flex;
+  justify-content: stretch;
+  align-items: stretch;
+  margin-left: 20px;
+  margin-right: 20px;
+
+
+
+}
+
+.cadre1{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+
+
+}
+
+.text1{
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+
+
+}
+
+.cadre2{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.text2{
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+
+
+}
+
+.cadre3{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.text3{
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+
+
+}
+
+.cadre4{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:#2F58A7 ;
+  flex: 0 1 33%;
+
+}
+
+.text4{
+  color: white;
+  font-family: 'Times New Roman';
+  text-align: justify;
+  align-content: center;
+  text-align: center;
+
+
+}
+
+#bachelor2{
+  position: absolute;
+  bottom: 9px;
+  right: 50px;
+  left: 178px;
+  border-radius: 10px;
+  /* width: 100px; */
+  justify-content: center;
+  background-color: #E06C08;
+
+
+
+}
+
+#bachelor3{
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  left: 178px;
+  border-radius: 10px;
+  background-color: #E06C08;
+  /* width: 100px; */
+
+
+}
+
+#mba{
+  position: absolute;
+  bottom: 10px;
+  right: 50px;
+  left: 198px;
+  border-radius: 10px;
+  background-color: #E06C08;
+  width: 100px;
+
+
+
+}
+
+.cote{
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.nomp{
+
+  width: 40%;
+}
+
+.case{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+#Nom{
+  margin: 5px;
+
+}
+
+#Prenoms{
+  margin: 5px;
+
+}
+
+.genre{
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.genre1{
+  width: 40%;
+
+
+}
+
+.genre2{
+  width: 60%;
+
+}
+
+.email0{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.email01{
+  width: 40%;
+
+
+}
+
+.email02{
+  width: 60%;
+
+}
+
+
+.confmail{
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .confmail1{
+    width: 40%;
+  
+  
+  }
+  
+  .confmail2{
+    width: 60%;
+  
+  }
+  
+
+.theme{
+  display: flex;
+  justify-content: space-between;
+  }
+
+  .theme1{
+    width: 40%;
+  
+  
+  }
+  
+  .theme2{
+    width: 60%;
+  
+  }
+  
+
+.number{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.number1{
+  width: 40%;
+
+
+}
+
+.number2{
+  width: 60%;
+
+}
+
+
+.pays{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.pays1{
+  width: 40%;
+
+
+}
+
+.pays2{
+  width: 60%;
+
+}
+
+
+.nived{
+  display: flex;
+  justify-content: space-between;
+
+}
+.nived1{
+  width: 40%;
+
+
+}
+
+.nived2{
+  width: 60%;
+
+}
+
+
+.camp{
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.camp1{
+  width: 40%;
+
+
+}
+
+.camp2{
+  width: 60%;
+
+}
+
+#option{
+
+width: 100%;
+}
+#confmail{
+  width: 100%;
+}
+
+#mail{
+  width: 100%;
+}
+
+#numeros{
+  width: 100%;
+}
+
+#Nom{
+  width: 40%;
+}
+
+.pls{
+
+color: white;
+}
+
+.tail{
+
+  width: 500px;
+  height: 300px;
 }
