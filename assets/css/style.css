@@ -619,7 +619,7 @@ Our press section
 .secondary-title{
     font-size: 34px;
     color: var(--primary);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Hepta Slab', Times, serif;
     font-weight: 600;
 }
 
@@ -751,7 +751,7 @@ Our press section
 
 
  .hero{
-    height:400px;
+    height:30vw;
     background-image: url('../img/eg-header.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -760,9 +760,18 @@ Our press section
     justify-content: center;
     align-items: center;
  }
+ 
 
  .hero .intro-title{
     color: #fff;
+ }
+
+ .news_subtitle{
+  color: var(--primary);
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2vw;
+
  }
 .egspace-intro{
     padding: 200px 0 0;
@@ -876,9 +885,8 @@ height: 500px;
  width: fit-content;
  align-items: center;
  position: absolute;
- top: 52%;
- left: 43%;
- 
+ top: 60%;
+ left: 42%;
  width: 50%;
  background-color: #5C4EFC ;
 
@@ -925,9 +933,6 @@ fieldset{
  justify-content: center;
  margin: 10px 100px 5px 120px;
  background-color: #E06C08;
- position: absolute;
- right: 50px;
- left: 50px;
 }
 
 
@@ -947,7 +952,6 @@ fieldset{
  background-color: #5C4EFC ;
  z-index: 2;
  position: absolute;
- 
 
 }
 
@@ -1350,141 +1354,6 @@ background-color: rgb(218, 218, 239);
   color: #fff;
  }
 
-
- .navbar-list {
-  display: flex;
-  gap: 4.8rem;
-  list-style: none;
-}
-
-.navbar-link:link,
-.navbar-link:visited {
-  display: inline-block;
-  text-transform: uppercase;
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 500;
-  color: #212529;
-  transition: all 0.3s;
-}
-
-.navbar-link:hover,
-.navbar-link:active {
-  color: #364fc7;
-}
-
-.mobile-navbar-btn {
-  display: none;
-  background: transparent;
-  cursor: pointer;
-}
-
-.mobile-nav-icon {
-  width: 4rem;
-  height: 4rem;
-  color: #212529;
-}
-
-.mobile-nav-icon[name="close-outline"] {
-  display: none;
-}
-
-/* ===========================================
-Hero and Service Section Start
-======================================= */
-.section-hero,
-.section-services {
-  padding: 9.6rem 0;
-  background-color: #a5d8ff;
-  height: 60vh;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.section-services {
-  background: #f3f0ff;
-}
-
-.section-hero p,
-.section-services p {
-  font-size: 3.2rem;
-}
-
-/* ===========================================
-Responsive Codes 
-======================================= */
-
-/* 980px  */
-@media (max-width: 62em) {
-  .mobile-navbar-btn {
-    display: block;
-    z-index: 999;
-    border: 3px solid #212529;
-    color: #212529;
-  }
-
-  .header {
-    position: relative;
-  }
-
-  .header .logo {
-    width: 40%;
-  }
-
-  .navbar {
-    /* display: none; */
-    width: 100%;
-    height: 100vh;
-    background: #e7f5ff;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* to get the tranisition  */
-    transform: translateX(100%);
-    transition: all 0.5s linear;
-
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-  }
-
-  .navbar-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .active .navbar {
-    transform: translateX(0);
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-
-  .active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
-    display: block;
-  }
-
-  .active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
-    display: none;
-  }
-}
-
-/* Below 560px  */
-@media (max-width: 35em) {
-  .header {
-    padding: 0 2.4rem;
-  }
-
-  .header .logo {
-    width: 60%;
-  }
  .w3-content {
   width: 100%;
   display: flex;
@@ -1493,21 +1362,6 @@ justify-content: center;
 
  .mySlides{
   width: 50%;
- }
-
- .faqslider {
-  width: 100%;
-  display: flex;
-
- }
-
- .faqSlides{
-  width: 50%;
- }
-
- .img_section8{
-max-width: 50%;
-
  }
 
  .deo{
@@ -1525,13 +1379,7 @@ max-width: 50%;
 
   display: flex;
   justify-content: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: medium;
- }
 
- .accroche-text{
-  font-size: 30px;
-  font-family: Verdana,  sans-serif;
  }
 
  .presentation{
@@ -1540,615 +1388,250 @@ max-width: 50%;
   font-size: var(--bold-primary);
  }
 
- .presentation-text{
-
-  font-family:  'Arial Narrow Bold', sans-serif;
-  font-size: 15px;
- }
-
- .parag{
-  display: flex;
-  justify-content: center;
-  font-family:  'Times New Roman', serif;
- }
-
- .parag-text{
-  text-align: center;
-  font-size: 15px;
-  
-
-  justify-content: center;
- }
-
- .intero{
-  display: flex;
-  justify-content: center;
-  font-size: 40px;
-  font-family: 'Times New Roman', Times, serif;
-  color:  #E06C08;
-
-
- }
-
-
-
  @font-face {
   font-family: myFirstFont;
   src: url(sansation_light.woff);
 }
 
-.text-section5{
-
-
-}
-
-.titre-section6{
-
-
-}
-
 .appel{
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-  background-color: #04132A;
   
 }
-
-@font-face {
-  font-family: myFirstFont;
-  src: url(sansation_light.woff);
-}
-
-.appel-text{
-  font-size: 20px;
-  color: #E06C08;
-
-}
-
 
 .parcours{
   display: flex;
   justify-content: center;
 }
 
-/* .diplome{
+.diplome{
   display: flex;
   justify-content: center;
-} */
+}
 
 .titre-section5{
   display: flex;
   justify-content: center;
-  color:  #E06C08;
+}
+
+
+/*   Blog */
+
+
+ .blog{
+  padding: 200px 15px
+ }
+
+.news-wrap{
+  max-width: 80%;
+  margin: auto;
+}
+.news-box{
+  flex: 0 1 calc(33.333% - 40px);
+  height: 25vw;
+  background-color: #000;
+  position: relative;
+  margin: 20px;
+}
+
+.news-img{
+  width: 100%;
+  height: 100%;
+}
+
+.news-title{
+position: absolute;
+left: 10%;
+bottom: 10%;
+z-index: 3;
+color: #fff;
+width: 80%;
+font-size: 14px;
+
+}
+
+.news-title h3{
+  margin-top: 20px;
+}
+
+.news-box::after{
+  height: 100%;
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsla(215, 82%, 17%, 0.765);
+}
+
+.news-date{
+  color: rgb(83, 214, 247);
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+
+/*     Section devenir mentor*/
+
+
+.sub-intro_title{
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.mentor{
+  text-align: center;
+}
+
+.mentor .intro-title{
+  line-height: 1.3;
+}
+
+.mentor-intro{
+  padding: 200px 20px;
+}
+
+.wrap{
+  max-width: 80%;
+  margin: auto;
+}
+
+.grid-unit-6{
+  flex:0 1 50% ;
+}
+
+.grid-unit-7{
+  flex:0 1 58.33333333% ;
+}
+.grid-unit-5{
+  flex:0 1 41.66666667% ;
+}
+
+.mentor-intro .flex-wrapper{
+  justify-content: space-between;
+}
+.mentor-intro .grid-unit-6{
+  flex:0 1 calc(50% - 20px);
+}
+
+.mentor-intro .grid-unit-6 p{
+  line-height: 1.8 ;
+  text-align: justify;
+}
+
+
+
+/* MENTOR CALL TO ACTION */
+
+
+.mentor_call-to-action{
+  height: 500px;
+  background-image: url('../img/mentor-cta.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.mentor_call-to-action::after{
+  height: 100%;
+  width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(8,8,77);
+  background: linear-gradient(106deg, rgba(8,8,77,1) 0%, rgba(0,212,255,0) 100%);
+  z-index: 3;
+}
+
+.mentor_call-to-action .intro-title{
+  color: #fff;
+  font-size: 30px;
+  z-index: 4;
+  font-family: 'Hepta Slab', Times, serif;
+  line-height: 1.8;
+}
+
+
+/*   DEEVENIR MENTOR */
+.devenir_mentor{
+  padding: 120px 20px;
+}
+.devenir_mentor .grid-unit-7, .devenir_mentor .grid-unit-5{
+  padding-right: 50px;
+}
+
+.devenir_mentor .head-title h2{
+  color: var(--primary);
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: 'Hepta Slab', serif;
+  font-weight: 800;
+}
+
+.devenir_mentor .head-title h4{
+  color: var(--primary);
+  margin-bottom: 30px;
   font-size: 20px;
+  }
+.devenir_mentor .head-title p{
+  line-height: 1.7;
 }
 
-.section6{
-  display: flex;
-  justify-content: center;
+.mentor-conditions h4{
+  margin-bottom: 20px;
+  font-size: 25px;
 }
 
-.titre-section6{
-  display: flex;
-  justify-content: center;
-
+.mentor-conditions li{
+  margin-bottom: 15px;
 }
 
-.titre-section7{
-  display: flex;
-  justify-content: center;
-
-
+.strong{
+  font-weight: 700;
 }
 
-.tt-section7{
 
-
+/*  Nos mentors */
+.our-mentors{
+  margin-bottom: 80px;
 }
 
-.innovation{
-  display: flex;
-  justify-content: stretch;
-  
-  margin-left: 20px;
-  margin-right: 20px;
-  
-
+.our-mentors .flex-wrapper{
+  justify-content: space-between;
 }
 
-.inov1{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-  height: 380px;
-  
-}
-
-.inov1-text{
-
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-  font-size: 30px;
-}
-
-.inov2{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  margin-left: 20px;
-  margin-right: 20px;
-  flex: 0 1 33%;
-  height: 380px;
-  
-  
-}
-
-.inov2-text{
-
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-  font-size: 30px;
-}
-
-.inov3{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-  height: 380px;
-  
-  
-}
-
-.inov3-text{
-
-  color: white;
-  font-family: 'Times New Roman';
-  align-content: center;
-  text-align: justify;
-  text-align: center;
-  font-size: 30px;
-}
-
-.ccl{
-
-  background-color: #04132A;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
- 
-  
-  
-
-}
-
-.ccl-text{
-
-  justify-content: center;
-  color: #E06C08;
-  font-size: 15px;
-
-}
-
-.diplome{
-  display: flex;
-  justify-content: stretch;
-  margin-left: 20px;
-  margin-right: 20px;
-
-
-}
-
-.candidat{
-  font-size: 30px;
-
-}
-
-.diplome1{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
+.mentor-box {
+  flex: 0 1 calc(33.33333% - 40px);
+  height: 22vw;
   position: relative;
-  display: flex;
-
-
 }
-
-.diplome1-text{
-  color: white;
- 
-  text-align: center;
-
-
-}
-
-.diplome2{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-  margin-left: 20px;
-  margin-right: 20px;
-  position: relative;
-
-
-
-}
-
-.diplome2-text{
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-
-  
-}
-
-.diplome3{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-  position: relative;
-
-}
-
-.diplome3-text{
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-  
-}
-
-.ref{
-  display: flex;
-  justify-content: center;
-
-
-}
-
-.ref-text{
-  font-size: 15px;
-  text-align: center;
-
-
-}
-
-.inscription{
-  display: flex;
-  justify-content: stretch;
-  align-items: stretch;
-  margin-left: 20px;
-  margin-right: 20px;
-
-
-
-}
-
-.cadre1{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-
-
-}
-
-.text1{
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-
-
-}
-
-.cadre2{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-  margin-left: 20px;
-  margin-right: 20px;
-
-}
-
-.text2{
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-
-
-}
-
-.cadre3{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.text3{
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-
-
-}
-
-.cadre4{
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color:#2F58A7 ;
-  flex: 0 1 33%;
-
-}
-
-.text4{
-  color: white;
-  font-family: 'Times New Roman';
-  text-align: justify;
-  align-content: center;
-  text-align: center;
-
-
-}
-
-#bachelor2{
-  position: absolute;
-  bottom: 9px;
-  right: 50px;
-  left: 178px;
-  border-radius: 10px;
-  /* width: 100px; */
-  justify-content: center;
-  background-color: #E06C08;
-
-
-
-}
-
-#bachelor3{
-  position: absolute;
-  bottom: 10px;
-  right: 50px;
-  left: 178px;
-  border-radius: 10px;
-  background-color: #E06C08;
-  /* width: 100px; */
-
-
-}
-
-#mba{
-  position: absolute;
-  bottom: 10px;
-  right: 50px;
-  left: 198px;
-  border-radius: 10px;
-  background-color: #E06C08;
-  width: 100px;
-
-
-
-}
-
-.cote{
-  display: flex;
-  justify-content: center;
-
-
-}
-
-.nomp{
-
-  width: 40%;
-}
-
-.case{
-  display: flex;
-  justify-content: space-between;
-  width: 60%;
-}
-
-#Nom{
-  margin: 5px;
-
-}
-
-#Prenoms{
-  margin: 5px;
-
-}
-
-.genre{
-  display: flex;
-  justify-content: space-between;
- 
-
-}
-
-.genre1{
-  width: 40%;
-
-
-}
-
-.genre2{
-  width: 60%;
-
-}
-
-.email0{
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.email01{
-  width: 40%;
-
-
-}
-
-.email02{
-  width: 60%;
-
-}
-
-
-.confmail{
-  display: flex;
-  justify-content: space-between;
-  }
-
-  .confmail1{
-    width: 40%;
-  
-  
-  }
-  
-  .confmail2{
-    width: 60%;
-  
-  }
-  
-
-.theme{
-  display: flex;
-  justify-content: space-between;
-  }
-
-  .theme1{
-    width: 40%;
-  
-  
-  }
-  
-  .theme2{
-    width: 60%;
-  
-  }
-  
-
-.number{
-  display: flex;
-  justify-content: space-between;
-
-
-}
-
-.number1{
-  width: 40%;
-
-
-}
-
-.number2{
-  width: 60%;
-
-}
-
-
-.pays{
-  display: flex;
-  justify-content: space-between;
-
-
-}
-
-.pays1{
-  width: 40%;
-
-
-}
-
-.pays2{
-  width: 60%;
-
-}
-
-
-.nived{
-  display: flex;
-  justify-content: space-between;
-
-}
-.nived1{
-  width: 40%;
-
-
-}
-
-.nived2{
-  width: 60%;
-
-}
-
-
-.camp{
-  display: flex;
-  justify-content: space-between;
-
-
-}
-.camp1{
-  width: 40%;
-
-
-}
-
-.camp2{
-  width: 60%;
-
-}
-
-#option{
-
-width: 100%;
-}
-#confmail{
+.mentor-box::after{
+  height: 100%;
   width: 100%;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsla(215, 82%, 17%, 0.372);
 }
 
-#mail{
+.mentor-box img{
   width: 100%;
+height: 100%;
+
 }
 
-#numeros{
-  width: 100%;
-}
-
-#Nom{
-  width: 40%;
-}
-
-.pls{
-
-color: white;
-}
-
-.tail{
-
-  width: 500px;
-  height: 300px;
+.mentor-name{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  color: white;
+  z-index: 4;
 }
