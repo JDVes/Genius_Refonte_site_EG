@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Poppins;
-    border: 1px solid black;
+   
 
 }
 :root {
@@ -875,8 +875,11 @@ height: 500px;
  border-radius: 10px;
  width: fit-content;
  align-items: center;
-
- width: 80%;
+ position: absolute;
+ top: 60%;
+ left: 42%;
+ height: ;
+ width: 50%;
  background-color: #5C4EFC ;
 
 }
@@ -937,9 +940,10 @@ fieldset{
 
 .btnn{
  margin: 100px 50px 5px 50px; ;
- width: 80%;
+ width: 10%;
  background-color: #5C4EFC ;
  z-index: 2;
+ position: absolute;
 
 }
 
@@ -1346,8 +1350,10 @@ background-color: rgb(218, 218, 239);
   width: 100%;
   display: flex;
 justify-content: center;
+ }
 
-
+ .mySlides{
+  width: 50%;
  }
 
  .deo{
@@ -1355,3 +1361,47 @@ justify-content: center;
   display: flex;
   justify-content: center;
  }
+
+ .cover{
+  width: 100%;
+ 
+ }
+
+ .accroche   {
+
+  display: flex;
+  justify-content: center;
+  font-size: ;
+ }
+
+ .presentation{
+  display: flex;
+  justify-content: center;
+  font-size: var(--bold-primary);
+ }
+
+ @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+
+.appel{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.parcours{
+  display: flex;
+  justify-content: center;
+}
+
+.diplome{
+  display: flex;
+  justify-content: center;
+}
+
+.titre-section5{
+  display: flex;
+  justify-content: center;
+}
