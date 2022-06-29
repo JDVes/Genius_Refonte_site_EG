@@ -11,52 +11,7 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="nav-top-bar">
-            <div class="grid-unit-6">
-                <div class="topnav-info">
-                    <span>+228 900000000</span>
-                </div>
-                <div class="topnav-info">
-                    <span>+228 900000000</span>
-                </div>
-            </div>
-
-            <div class="grid-unit-6">
-                <div class="topnav-social">
-                    <ul>
-                        <li><a href="http://">a</a></li>
-                        <li><a href="http://">a</a></li>
-                        <li><a href="http://">a</a></li>
-                    </ul>
-                </div>
-                <div class="topnav-flag">
-                   <img src="assets/img/payments.png" alt="">
-                   <img src="assets/img/payments.png" alt="">
-                </div>
-               
-            </div>
-        </div>
-        <nav>
-            <div class="logo"><img src="assets/img/logo.png" alt="" srcset=""></div>
-            <div class="navbar">
-              <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Acceuil</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Nos formations</a></li>
-                <li class="nav-item"><a href="energy-space.html" class="nav-link">Energy space</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link nav-btn">Devenir Bénévole</a></li>
-              </ul>
-            </div>
-          
-            <div class="hamburger">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </div>
-          </nav>
-
-    </header>
+<?php  include_once 'Views/Components/nav.php' ?>
    
 
       <section>
@@ -212,63 +167,6 @@
         </div>
      </section>
 
-     <footer>
-        <div class="flex-wrapper">
-            <div class="grid-unit-3">
-                 <img class="footer-logo" src="assets/img/logo.png" alt="" srcset="">
-
-                 <p class="footer-desc">
-                      Soutenir les jeunes en les formnat et en leur fournissant des outils essentiels pour dévolopper leurs projet entreprenauriaux
-                 </p>
-
-                 <ul class="footer-social-icon">
-                  <li><a href="http://"><i class="fa-brands fa-facebook-square"></i></a></li>
-                  <li><a href="http://"><i class="fa-brands fa-linkedin"></i></a></li>
-                  <li><a href="http://"><i class="fa-brands fa-twitter-square"></i></a></li>
-                 </ul>
-
-            </div>
-            <div class="grid-unit-3">
-                <h4 class="footer-col-title">Navigation</h4>
-                 <ul class="footer-links">
-                        <li><a class="footer-nav-links" href="http://">Acceuil</a></li>
-                        <li><a class="footer-nav-links" href="http://">A Propos</a></li>
-                        <li><a class="footer-nav-links" href="http://">Nos formations</a></li>
-                        <li><a class="footer-nav-links" href="http://">Energy Space</a></li>
-                        <li><a class="footer-nav-links" href="http://">Blog et actualités</a></li>
-                 </ul>
-            </div>
-            <div class="grid-unit-3">
-                <h4 class="footer-col-title">Nous contacter</h4>
-                 <ul class="footer-links">
-                        <li><a class="footer-nav-links" href="http://">00228 79615058 </a></li>
-                        <li><a class="footer-nav-links" href="http://">contact@energy-generation.org</a></li>
-                        <li><a class="footer-nav-links" href="http://">Rue 21 HDN, Awoudja, Lomé, Maritime 16BP136 Kégué, TG
-
-                        </a></li>
-                 </ul>
-            </div>
-            <div class="grid-unit-3">
-                <h4 class="footer-col-title">Newsletter</h4>
-                <span>
-                    Abonnez-vous à la Newsletter pour recevoir nos dernières actualités
-                </span>
-                <form class="newsletter-form" action="" method="post">
-                  <input type="email" name="email" placeholder="Votre E-mail">
-                  <button type="submit"></button>
-                </form>
-            </div>
-          
-        </div>
-        <div class="footer-bottom">
-            <span> Termes et conditions | Confidentialités</span>
-
-                <span> &copy; 2022  <span class="primary-color">Energy Generation</span> | Tous droits réservés</span>
-        </div>
-     </footer>
-
-    <script src="assets/js/script.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+     <?php  include_once 'Views/Components/footer.php' ?>
 </body>
 </html>

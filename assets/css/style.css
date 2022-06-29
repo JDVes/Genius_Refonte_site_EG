@@ -94,6 +94,9 @@ border-radius: 50%;
 
 .fa-solid{
 font-size: 1.5rem;
+font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #29afe4;
 }
 
  .fa-brands{
@@ -108,6 +111,10 @@ font-size: 1.5rem;
     
   }
   
+.flex-end{
+    justify-content: flex-end;
+}
+
   nav {
     height: 75px;
     width: 100%;
@@ -1059,7 +1066,7 @@ padding-left: 500px;
 
 }
 .secti1 h1{
-  color: rgb(37, 37, 224);
+  color: var(--primary);
   padding-top: 60px;
   padding-left: 60px ;
   padding-right:  70px;
@@ -1180,7 +1187,7 @@ color: #000;
   width:400px ;
 }
 .mission3 h1{
-  color: rgb(36, 36, 205);
+  color: var(--primary);
   margin-bottom: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1241,36 +1248,33 @@ flex: 0 1 40%;
 .PRODUITS{
   display: flex;
   margin-top: 150px;
-  height: 400px;
   width: 100%
 
 }
 .produit{
-width: 300PX;
+  flex: 0 1 33.33%;
+  padding: 50px;
 margin-left: 80px;
 margin-right: 50px;
 margin-top: 20px;
 padding-top: 100px;
 margin-bottom: 20px;
-background-color: rgb(218, 218, 239);
+background-color: #F3F9FF;
 
 }
 .produit h1{
   font-size: large;
-  color: rgb(80, 80, 250);
-  margin-left: 20px;
+  color: var(--primary);
   
 }
 .produit p{
   color: rgba(58, 53, 53, 0.361);
-  margin-left: 20px;
   
 }
 .produit h2{
-  color: rgba(58, 53, 53, 0.361);
+  color: var(--primary);
   font-size: larger;
   margin-top: 50px;
-  margin-left: 20px;
   
 }
 .after-footer{
@@ -1638,4 +1642,24 @@ height: 100%;
 
 .after-footer{
   margin-bottom: 100px;
+}
+
+.icon{
+  font-size: 20px;
+}
+
+.topnav-info .fa-solid{
+  font-size: 20px;
+}
+
+.icon{
+  font-size: 24px;
+  display: block;
+}
+
+.icon .fa-solid {
+  color: rgb(229, 67, 67);
+}
+.newsletter-form{
+  padding: 0;
 }
