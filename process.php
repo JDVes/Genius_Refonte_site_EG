@@ -31,6 +31,20 @@ if(empty($prenom) || empty($nom) || empty($genre) || empty($email) || empty($pas
     echo "You did not fill out the required fields.";
 }
 
+//  Insertion de donnée
+
+
+$sql = " INSERT INTO db_geniuseg (name, message_post, priorite, type)
+               VALUES ('$name','$message',$priority,$type)";
+$req= $dbh -> query($sql);
+
+//  while($row = $req->fetch(PDO::FETCH_ASSOC)) : ;
+
+if($req){
+    echo "insertion réussie";
+} else{
+    echo "insertion échoué";
+}
 
 
 ?>
