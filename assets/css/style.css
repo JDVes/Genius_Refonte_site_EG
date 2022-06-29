@@ -1121,12 +1121,11 @@ color: #000;
   margin-top:80px ;
   margin-bottom: 0;
   padding-bottom: 0;
-  height: 50%;
-  width:470px ;
   background-image: url('../img/energie5.webp');
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  height: 100%;
   
   
 }
@@ -1217,12 +1216,12 @@ color: #000;
   margin-left: 60px;
   margin-right: 20px;
   height: 400px;
-  width: 350px;
   padding-left: 40px;
 }
 .font .vrai {
 color: #fff;
 font-size: larger;
+flex: 0 1 40%;
 }
 .font .vrai p{
   margin-top: 80px;
@@ -1233,10 +1232,10 @@ font-size: larger;
   margin-right: 30px;
   margin-top: 60px;
   height: 550px;
-  width: 600px;
   background-image: url('../img/energie9.jpeg');
   background-size: cover;
   z-index: 30;
+  flex: 0 1 40%;
 
 }
 .PRODUITS{
@@ -1275,7 +1274,6 @@ background-color: rgb(218, 218, 239);
   
 }
 .after-footer{
-  height: 900px;
   width: 100%;
   margin-top: 30px;
   
@@ -1283,42 +1281,53 @@ background-color: rgb(218, 218, 239);
 .information{
    height: 800px;
    width: 100%;
-   margin-bottom: 50px;
+   display: flex;
 
 }
-.info{
-  display: flex;
-  height: 400px;
-  width: 100%;
-  position: absolute;
+.info, .formation{
+  flex: 0 1 50%;
 }
+
 .info .info1{
   background-image: url('../img/energie7.webp');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 50%;
-  height: 400px;
+  height: 100%;
   position:relative ;
 }
+
+.info .formation-bg{
+  background-image: url('../img/energie11.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position:relative ;
+}
+
 .info .info2{
   background-color: var(--bold-primary);
   width: 50%;
   height: 400px;
   position: relative;
 }
-.formation{
-  display: flex;
-  height: 400px;
-  width: 100%;
-  position: absolute;
-  margin-top: 400px;
-}
-.formation .formation1{
+
+.formation {
   background-color: var(--bold-primary);
-  width: 50%;
-  height: 400px;
   position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 100px;
 }
+
+.formation h1{
+  margin-bottom: 10px;
+}
+
+.formation h3{
+  margin-bottom: 30px;
+}
+
 .formation .formation2{
   background-image: url('../img/energie11.jpg');
   background-repeat: no-repeat;
@@ -1328,29 +1337,20 @@ background-color: rgb(218, 218, 239);
   position: relative;
 }
 .information h1{
-  padding-left: 50px;
-  padding-right: 130px;
   color: #fff;
-  padding-top: 30px;
-  margin-left: 50px;
 }
 .information p{
-  padding-left: 50px;
-  padding-right: 50px;
   color: #fff;
-  margin-left: 50px;
   
 }
 .information button{
   padding: 10px 30px;
   background-color: rgb(107, 231, 231);
-  margin-left: 100px;
   color: #fff;
   margin-top: 40px;
   border: none;
 }
 .information h3{
-  margin-left: 100px;
   color: #fff;
  }
 
@@ -1634,4 +1634,8 @@ height: 100%;
   left: 10%;
   color: white;
   z-index: 4;
+}
+
+.after-footer{
+  margin-bottom: 100px;
 }
