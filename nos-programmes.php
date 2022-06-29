@@ -298,7 +298,7 @@
       <div>
         <fieldset>
           <div class="btn-form" >Postulez Maintenant !</div>
-          <form action="process.php" method="post">
+          <form action="Controllers/process.php" method="post">
 
             <div class="cote" >
               <div class="nomp" >

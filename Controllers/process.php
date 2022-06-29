@@ -1,14 +1,7 @@
 <?php
-$user_db = 'root';
-$pass_db = '';
-try {
-    $dbh = new PDO('mysql:host=localhost;dbname=db_geniuseg', $user_db, $pass_db);
 
-} catch (PDOException $e) {
-    print "Erreur !: " . $e->getMessage() . "<br/>";
-    die();
-}
-
+//Connexion à la BDD
+include_once '../Models/db_connect.php'
 
 $prenom = $_POST['prenom'];
 $nom = $_POST['nom'];
