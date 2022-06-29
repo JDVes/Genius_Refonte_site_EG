@@ -20,3 +20,9 @@ Maquette: Figma: https://www.figma.com/proto/5N0DNaWU68mflCnif4Ctp8/REFONTE-SITE
 
 
 Langaes: HTML/CSS; PHP/MYSQL
+
+
+Lien provisoire: http://energyz.rf.gd/
+
+
+Kanban board: https://github.com/users/JDVes/projects/4
