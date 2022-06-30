@@ -306,7 +306,7 @@
               </div>
 
               <div class="case" >
-                <input type="text" id="Prenoms" placeholder="votre prenoms">
+                <input type="text" id="Prenoms" placeholder="votre prenoms" name="prenom" >
                 <input type="text" id="Nom" placeholder="votre Nom" name="nom" >
               </div>
 
@@ -318,7 +318,7 @@
               </div>
 
               <div class="genre2" >
-                <select name="subject" id="option"  > 
+                <select name="genre" id="option"  > 
                   <option disabled="disabled" selected="selected" >choose Option</option>
                   <option value="Homme">Homme</option>
                   <option value="Femme">Femme</option> 
@@ -345,7 +345,7 @@
               </div>
               
               <div class="confmail2" >
-                <input type="email" id="confmail" name="confirmez votre email" > 
+                <input type="email" id="confmail" name="confirmez" > 
 
 
               </div>
@@ -358,7 +358,7 @@
 
               </div>
               <div class="number2" >
-                <input type="tel" id="numeros" name="numeros" > <br>
+                <input type="tel" id="numeros" name="numero" > <br>
                   
               </div>
             </div>
@@ -408,7 +408,7 @@
               </div>
 
               <div class="theme2" >
-                <select name="subject" id="option"> <br>
+                <select name="theme" id="option"> <br>
                   <option disabled="disabled" selected="selected" >choose Option</option>
                   <option value="Etrepreuneuriat">Entrepreuneuriat</option>
                   <option value="Business school">Business School</option>
@@ -425,7 +425,7 @@
               </div>
 
               <div class="camp2" >
-                <select name="subject" id="option"> <br>
+                <select name="filiere" id="option"> <br>
                   <option disabled="disabled" selected="selected" >choose Option</option>
                   <option value="Energy eneration">Energy Generation</option>
                   <option value="Campus Numerique">campus Numerique</option>

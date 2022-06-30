@@ -1,42 +1,54 @@
 <?php
 
 //Connexion à la BDD
-include_once '../Models/db_connect.php'
+
+$user_db = 'root';
+$pass_db = '';
+try {
+    $dbh = new PDO('mysql:host=localhost;dbname=db_geniuseg', $user_db, $pass_db);
+
+
+
+
+
+// Recuperation des données dans les variables declarée
 
 $prenom = $_POST['prenom'];
 $nom = $_POST['nom'];
-$genre = $_POST['username'];
-$email = $_POST['password'];
-$confirmation_email = $_POST['passwordconf'];
-$numero = $_POST['email'];
-$pays = $_POST['securityq'];
-$niveau_etude = $_POST['qanswer'];
-$thematique = $_POST['securityq'];
-$choix_campuse = $_POST['qanswer'];
+$genre = $_POST['genre'];
+$email = $_POST['email'];
+$confirmation_email = $_POST['confirmez'];
+$numero = $_POST['numero'];
+$pays = $_POST['pays'];
+$niveau_etude = $_POST['diplome'];
+$thematique = $_POST['theme'];
+$choix_campus = $_POST['filiere'];
 
-if(empty($prenom) || empty($nom) || empty($genre) || empty($email) || empty($passwordconf) || empty($email) || empty($securityq) || empty($qanswer))
-{
-    $req= $dbh -> prepare('INSERT INTO db_geniuseg (name, message_post, priorite, type) VALUES(?, ?, ?, ?)');
-    $req -> execute([$nom, $message_post, $priorite, $type]);
+// verification des données recuperér et des variables declarée
+
+
+
+if(empty($prenom) || empty($nom) || empty($genre) || empty($email) || empty($confirmation_email) || empty($numero)|| empty($pays) || empty($niveau_etude ) || empty($thematique) || empty($choix_campus) 
+    )  
+     {
+
+    echo "veuillez remplir tout les champs";
+
+    } else{
+
+    $req= $dbh -> prepare('INSERT INTO postulants (prenom, nom, genre, email, confirmation_email, telephone, pays, niveau_etude, thématique, campus) VALUES(?,?,?, ?,?,?,?,?,?,?)');
+    $req -> execute([$prenom ,$nom, $genre, $email , $confirmation_email, $numero ,$pays, $niveau_etude, $thematique, $choix_campus ]);
 
         // header('location:contacts-table.php');
 
-    echo "You did not fill out the required fields.";
+    echo "données inserer avec succes !";
 }
 
-//  Insertion de donnée
 
-
-$sql = " INSERT INTO db_geniuseg (name, message_post, priorite, type)
-               VALUES ('$name','$message',$priority,$type)";
-$req= $dbh -> query($sql);
-
-//  while($row = $req->fetch(PDO::FETCH_ASSOC)) : ;
-
-if($req){
-    echo "insertion réussie";
-} else{
-    echo "insertion échoué";
+} 
+catch (PDOException $e) {
+    print "Erreur !: " . $e->getMessage() . "<br/>";
+    die();
 }
 
 

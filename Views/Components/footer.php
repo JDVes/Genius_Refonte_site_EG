@@ -39,7 +39,7 @@
                 <span>
                     Abonnez-vous à la Newsletter pour recevoir nos dernières actualités
                 </span>
-                <form class="newsletter-form" action="" method="post">
+                <form class="newsletter-form" action="../Controllers/process_news_letter.php" method="post">
                   <input type="email" name="email" placeholder="Votre E-mail">
                   <button type="submit"></button>
                 </form>
